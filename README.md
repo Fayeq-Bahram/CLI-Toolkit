@@ -8,7 +8,7 @@
   * Customizable commands
   * fast and lightweight
   * supports plugins extensions
-  * my toolkit simplifies reading/sorting and reducing errors
+  * my toolkit simplifies reading/sorting data and reducing errors
 
 # Sample Commands
  * node stats index.js
