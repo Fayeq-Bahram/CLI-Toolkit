@@ -1,27 +1,28 @@
-# Demo Link;
-https://drive.google.com/file/d/1ipz1ynPJfqnoyVclPsZPm-uJrZYtafQY/view?usp=drivesdk
-# Fayeq-Bahram-CLI-Toolkit-W1
-*My CLI Toolkit is a set of simple commands which enable developers to:
-  * Automate workflow.
-  * read and show statistics of the very data
-  * sort and export data to a new file
-  
+# CLI TOOl-KIT
+A simple and powerful CLI toolkit to hand CSV files.
+It is based on a Command Line Interface that can quickly analyze, filter, and sort your CSV data from the terminal.
+
+# Description
+This CLI toolkit is able to:
+ -Show basic statistics, of  CSV files (min, max, average)
+ -Filter CSV data by column values
+ -Sort CSV data by column
+ -Export results to a new CSV file
+ -It is easy to use in terminal
+
+ # Sample Commands
+  - node stats index.js
+  - node index.js sort data/data.csv price
+  - node index.js export data/data.csv outpts.scv
+
 # Key Features
-  * Customizable commands
-  * fast and lightweight
-  * supports plugins extensions
-  * my toolkit simplifies reading/sorting data and reducing errors
+  - Customizable commands
+  - fast and lightweight
+  - supports plugins extensions
+  - my toolkit simplifies reading/sorting data and reducing errors
 
-# Sample Commands
- * node stats index.js
- * Node index.js sort data/data.csv price
- * Node index.js export data/data.csv oupts.csv
+# Demo Video
+https://drive.google.com/file/d/1ipz1ynPJfqnoyVclPsZPm-uJrZYtafQY/view?usp=drivesdk
 
-# How to start?
-  * npm init -y
-  * npm install <package>
-  * mycli --help
-  
-
-    
-  
+  # Author
+   Fayeq Bahram 2026
