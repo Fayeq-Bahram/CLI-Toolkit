@@ -1,9 +1,9 @@
 # CLI TOOl-KIT
-
 A simple and powerful CLI toolkit to hand CSV files.
 It is based on a Command Line Interface that can quickly analyze, filter, and sort your CSV data from the terminal.
 
 # Description
+This CLI toolkit is able to:
  -Show basic statistics, of  CSV files (min, max, average)
  -Filter CSV data by column values
  -Sort CSV data by column
