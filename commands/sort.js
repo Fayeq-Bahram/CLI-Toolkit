@@ -15,7 +15,7 @@ module.exports = function sortCSV(file, column) {
   const columnIndex = headers.indexOf(column);
 
   if (columnIndex === -1) {
-    console.error(`Column "${column}" not found!`);
+    console.error(`Column "${column}"Data not found!`);
     return;
   }
 

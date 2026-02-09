@@ -2,12 +2,16 @@
 console.log("Args", process.argv);
 const fs = require('fs'); 
 
+// fs is a built-in file system so we need to import it from node modules. 
+
 const stats = require("./commands/stats");
 const filter = require("./commands/filter"); 
 const sortCSV = require("./commands/sort"); 
 const exportCSV = require("./commands/export");
-
-
+/*
+ I also imported filter.js, sort.js, stats.js and export.js
+ 
+*/
 
 const args = process.argv.slice(2);
 
@@ -18,6 +22,9 @@ if (!command) {
   console.log("Commands: stats | filter | sort");
   process.exit(0);
 }
+
+// switch is a good way of conditional statements.
+
 
 switch (command) {
   case "stats":
@@ -75,7 +82,6 @@ for (let row = 1; row < lines.length; row ++){
 
       let value = values[i]?.trim();
 
-
       if(headers[i] === "price"){
          object[headers[i]] = Number(value);
       }else{
@@ -86,6 +92,7 @@ for (let row = 1; row < lines.length; row ++){
      result.push(object);
 }
 
+// table() method displays my data in a table.
 
 console.table(result);
 

@@ -3,7 +3,7 @@ const fs = require("fs");
 module.exports = function exportCSV(dataRows, headers, outputFile) 
 {
   if (!outputFile) {
-    console.error("Please provide an output file name.");
+    console.error("Please provide an output file name!");
     return;
   }
 
