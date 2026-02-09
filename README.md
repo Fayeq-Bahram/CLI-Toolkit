@@ -4,7 +4,7 @@ It is based on a Command Line Interface that can quickly analyze, filter, and so
 
 # Description
 This CLI toolkit is able to:
- -Show basic statistics, of  CSV files (min, max, average)
+ -Show basic statistics, of  CSV file; (min, max, average) of data
  -Filter CSV data by column values
  -Sort CSV data by column
  -Export results to a new CSV file
@@ -22,6 +22,8 @@ This CLI toolkit is able to:
   - my toolkit simplifies reading/sorting data and reducing errors
 
 # Demo Video
+Please visit the link. It shows the functionality of CLI-toolkit code throught specific customized commands.
+
 https://drive.google.com/file/d/1ipz1ynPJfqnoyVclPsZPm-uJrZYtafQY/view?usp=drivesdk
 
   # Author
